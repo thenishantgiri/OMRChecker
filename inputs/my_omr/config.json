@@ -1,0 +1,20 @@
+{
+  "dimensions": {
+    "display_height": 2400,
+    "display_width": 1700,
+    "processing_height": 2314,
+    "processing_width": 1651
+  },
+  "outputs": {
+    "show_image_level": 0,
+    "save_image_level": 1,
+    "save_detections": true
+  },
+  "alignment_params": {
+    "auto_align": false,
+    "match_col": 2,
+    "max_steps": 10,
+    "stride": 2,
+    "thickness": 2
+  }
+}

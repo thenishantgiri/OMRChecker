@@ -1,0 +1,73 @@
+{
+  "pageDimensions": [1700, 2400],
+  "bubbleDimensions": [26, 26],
+  "preProcessors": [
+    {
+      "name": "FeatureBasedAlignment",
+      "options": {
+        "reference": "reference.jpg",
+        "maxFeatures": 800,
+        "goodMatchPercent": 0.15
+      }
+    }
+  ],
+  "fieldBlocks": {
+    "pedagogy": {
+      "origin": [282, 1295],
+      "bubblesGap": 34,
+      "labelsGap": 34.5,
+      "fieldLabels": ["q1..30"],
+      "direction": "horizontal",
+      "bubbleValues": ["A", "B", "C", "D"]
+    },
+    "language": {
+      "origin": [540, 1242],
+      "bubblesGap": 34,
+      "labelsGap": 34,
+      "fieldLabels": ["q31..60"],
+      "direction": "horizontal",
+      "bubbleValues": ["A", "B", "C", "D"]
+    },
+    "english": {
+      "origin": [807, 1242],
+      "bubblesGap": 34,
+      "labelsGap": 34,
+      "fieldLabels": ["q61..90"],
+      "direction": "horizontal",
+      "bubbleValues": ["A", "B", "C", "D"]
+    },
+    "mathematics": {
+      "origin": [1075, 1243],
+      "bubblesGap": 34,
+      "labelsGap": 34,
+      "fieldLabels": ["q91..120"],
+      "direction": "horizontal",
+      "bubbleValues": ["A", "B", "C", "D"]
+    },
+    "environment": {
+      "origin": [1342, 1243],
+      "bubblesGap": 34,
+      "labelsGap": 34,
+      "fieldLabels": ["q121..150"],
+      "direction": "horizontal",
+      "bubbleValues": ["A", "B", "C", "D"]
+    },
+    "testBooklet": {
+      "origin": [526, 1155],
+      "bubblesGap": 67,
+      "labelsGap": 0,
+      "fieldLabels": ["booklet_code"],
+      "direction": "horizontal",
+      "bubbleValues": ["A", "B", "C", "D"]
+    },
+    "testBookletNo": {
+      "origin": [1242, 1109],
+      "bubblesGap": 67,
+      "labelsGap": 0,
+      "fieldLabels": ["booklet_no"],
+      "direction": "horizontal",
+      "bubbleValues": ["A", "B", "C", "D"]
+    }
+  },
+  "emptyValue": ""
+}
